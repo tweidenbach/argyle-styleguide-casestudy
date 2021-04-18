@@ -1,5 +1,26 @@
 :root {
   --font-sans-serif: Montserrat, sans-serif;
+  --black: #000;
+  --white: rgb(255, 255, 255);
+  --blue: rgb(76, 124, 218);
+  --gray: rgb(131, 131, 131);
+  --purple: rgb(105, 75, 165);
+  --cyan: rgb(78, 164, 208);
+  --orange: rgb(236, 111, 24);
+  --green: rgb(64, 172, 116);
+  --olive: rgb(132, 164, 32);
+  --lightpurple: rgb(183, 156, 239);
+  --lightblue: rgb(186, 230, 238);
+  --lightorange: rgb(254, 216, 138);
+  --lightgreen: rgb(182, 230, 184);
+  --lightolive: rgb(223, 231,141);
+  --bluishdarkgrey: rgb(76, 79, 86);
+  --bluishgrey: rgb(196, 210, 220);
+  --lightgrey: rgb(217, 217, 217);
+  --bluishlightgrey: rgb(239, 241, 245);
+  --extralightgrey: rgb(244, 244, 244);
+  --red: rgb(231, 40, 66);
+  --lightred: rgb(254, 164, 138);
 }
 
 html {
@@ -17,13 +38,25 @@ img {
 
 body {
   font-family: var(--font-sans-serif);
+
 }
 
 .cover__headline {
   font-weight: 300;
   font-size: 30px;
   line-height: 1.3;
-  color: #4C7CDA;
+  color: var(--blue);
+  padding-left: 10px;
+  padding-right: 8rem;
+  margin-bottom: 4rem;
+}
+
+.section__headline {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.3;
+  color: var(--gray);
+  padding-left: 20px;
   padding-right: 8rem;
   margin-bottom: 4rem;
 }
@@ -31,14 +64,20 @@ body {
 .cover__title {
   font-size: 60px;
   font-weight: 600;
+  padding-left: 20px;
+
   }
 
 .section__title {
   font-size: 45px;
   font-weight: 600;
+  padding-left: 23px;
+
 }
 
 .card__title {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 500;
+  padding-left: 20px;
+
 }
