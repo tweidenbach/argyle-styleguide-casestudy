@@ -1,5 +1,6 @@
 :root {
   --font-sans-serif: Montserrat, sans-serif;
+  --argyle: Poppins, sans-serif;
   --black: #000;
   --white: rgb(255, 255, 255);
   --blue: rgb(76, 124, 218);
@@ -42,15 +43,16 @@ body {
 }
 
 .site__name1 {
-font-size: 35px;
-font-weight: 500;
+font-family: poppins;
+font-weight: 400;
+font-size: 33px;
 padding-left: 10px;
 }
 
 .site__name2 {
 color: var(--blue);
 font-weight: 300;
-font-size: 28px;
+font-size: 26px;
 padding-left: 10px;
 }
 
