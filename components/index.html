@@ -3,13 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../css/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <title>Components | argyle styleguide</title>
     </head>
 
     <body>
         <h1>Web components</h1>
         <h2>Typography Defaults</h2>
-        <h3>body</h3>
-        <img src="img/argyleStyleguideImages/cover/cover__headline.png">
+        <article class="component">
+            <h3 class="component__name">body</h3>
+        <img 
+        srcset="../components/img/argyleStyleguideImages/cover/cover__headline@2x.png 2x";
+        src="../components/img/argyleStyleguideImages/cover/cover__headline@2x.png" alt="covercontent">
+        <div class="component_code">
+            <p class="cover__headline">The brand colors make our company representation interesting, vivid, and unique.</p>
+        </div>
+        </article>
+        <img 
+        srcset="img/argyleStyleguideImages/cover/cover__title.png 2x"
+        src="img/argyleStyleguideImages/cover/cover__title.png">
+
+        <div class="component">
+            <p>The brand colors make our company representation interesting, vivid, and unique.</p>
     </body>
 </html>
