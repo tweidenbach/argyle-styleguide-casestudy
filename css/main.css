@@ -56,6 +56,52 @@ font-size: 26px;
 padding-left: 10px;
 }
 
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navbar__list {
+list-style: none;
+text-decoration: none;
+display: flex;
+padding: 0;
+}
+
+.navbar__list li {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.navbar__list--active {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: var(--black);
+}
+
+/* visited link */
+a:visited {
+  color: var(--black);
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--blue);
+}
+
+/* selected link */
+a:active {
+  color: var(--blue);
+}
+
 .cover__headline {
   font-weight: 300;
   font-size: 30px;
