@@ -141,3 +141,51 @@ a:active {
   font-weight: 500;
   padding-left: 20px;
 }
+
+.colorcard {
+  width: 165px;
+  box-sizing: border-box;
+}
+.colorcard__title {
+  color: var(--black);
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.colorcard__dot {
+  height: 50px;
+  width: 50px;
+  background-color: var(--purple);
+  border-radius: 50%;
+  display: inline-block;
+}
+.colorcard__rgb {
+padding: 15px 0px;
+font-size: 10px;
+
+}
+.colorcard__rgb--title {
+  font-family: Montserrat;
+  color: var(--gray);
+  padding-right: 10px;
+}
+
+.colorcard__rgb--numbers {
+  font-weight: 400;
+
+  word-spacing: 5px;
+}
+.colorcard__hex {
+  padding-bottom: 15px;
+  font-size: 10px;
+  }
+.colorcard__hex--title {
+  font-family: Montserrat;
+  color: var(--gray);
+  padding-right: 12px;
+}
+
+.colorcard__hex--numbers {
+  font-weight: 400;
+}
