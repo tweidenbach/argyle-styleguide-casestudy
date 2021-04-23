@@ -74,8 +74,8 @@ padding: 0;
   padding: 10px;
 }
 
-.navbar__list--active {
-  color: red;
+.navbar__current {
+color:var(--argyle);
 }
 
 .asidenavbor__menutitle {
