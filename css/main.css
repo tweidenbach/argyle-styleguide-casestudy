@@ -78,6 +78,26 @@ padding: 0;
   color: red;
 }
 
+.asidenavbor__menutitle {
+font-size: 15px;
+font-weight: 400;
+padding-left: 10px;
+}
+
+.asidenavbar__list {
+  font-size: 15px;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 35px;
+
+}
+
+.asidenavbar__list li {
+  padding-left: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
 a {
   text-decoration: none;
 }
@@ -142,6 +162,56 @@ a:active {
   padding-left: 20px;
 }
 
+.primarycolorcard {
+width: 175px;
+height: 300px;
+background-color: #4c7cda;
+box-sizing: border-box;
+}
+
+.primarycolorcard__title {
+font-size: 12px;
+font-weight: 500;
+color: var(--white);
+padding: 15px;
+margin: 0px;
+}
+
+.primarycolorcard__rgb {
+  padding: 15px 0px;
+  font-size: 10px;
+  padding-left: 15px;
+  margin-top: 175px;
+  
+  }
+  .primarycolorcard__rgb--title {
+    font-family: Montserrat;
+    color: var(--lightgrey);
+    padding-right: 10px;
+  }
+  
+  .primarycolorcard__rgb--numbers {
+    font-weight: 400;
+    color: var(--white);
+    word-spacing: 5px;
+  }
+  .primarycolorcard__hex {
+    padding-bottom: 15px;
+    font-size: 10px;
+    }
+  .primarycolorcard__hex--title {
+    font-family: Montserrat;
+    color: var(--lightgrey);
+    padding-right: 12px;
+    padding-left: 15px;
+
+  }
+  
+  .primarycolorcard__hex--numbers {
+    font-weight: 400;
+    color: var(--white);
+  }
+
 .colorcard {
   width: 165px;
   box-sizing: border-box;
@@ -173,7 +243,6 @@ font-size: 10px;
 
 .colorcard__rgb--numbers {
   font-weight: 400;
-
   word-spacing: 5px;
 }
 .colorcard__hex {
