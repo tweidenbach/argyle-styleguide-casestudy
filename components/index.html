@@ -10,22 +10,25 @@
     </head>
 
     <body>
-    <div class="site__container">
+    <div class="page-header__color">
+        <div class="page-header">
         <h1>Argyle Design Web Design System</h1>
         <h2>Web components</h2>
             <p>Select the one of the seven sections of the Argyle Website to see all the molecules, atoms, and organisms ready to be assembled</p>
-        <ul>
-            <li>Header/Nav</li>
-            <li>Cover Section</li>
-            <li>Section One</li>
-            <li>Section Two</li>
-            <li>Section Three</li>
-            <li>Section Four</li>
-            <li>Section Five</li>
-            <li>Footer</li>
+        <ul class="pagenav">
+            <li><a href="#header-nav">Header/Nav</a></li>
+            <li><a href="#cover-section">Cover Section</a></li>
+            <li><a href="#section-one">Section One</a></li>
+            <li><a href="#section-two">Section Two</a></li>
+            <li><a href="#section-three">Section Three</a></li>
+            <li><a href="#section-four">Section Four</a></li>
+            <li><a href="#section-five">Section Five</a></li>
+            <li><a href="#footer">Footer</a></li>
         </ul>
-        
-        <h2>Header/Nav Components</h2>
+    </div>
+</div>
+    <div class="site__container">
+        <h2 id="header-nav">Header/Nav Components</h2>
         <article class="component">
             <h3 class="component__name">Page Title</h3>
             <img 
@@ -71,7 +74,7 @@
         </div>
         </article>
 
-        <h2>Cover Section</h2>
+        <h2 id="cover-section">Cover Section</h2>
         <article class="component">
             <h3 class="component__name">Cover Title</h3>
             <img 
@@ -107,9 +110,7 @@
         </div>
         </article>
         
-        <h2>Section One</h2>
- 
-
+        <h2 id="section-one">Section One</h2>
         <article class="component">
             <div class="sectionone">
             <img class="sectionone__image"
@@ -182,7 +183,7 @@
         </div>
         </article>
 
-        <h2>Section two</h2>
+        <h2 id="section-two">Section two</h2>
         <h3 class="component__name">Secondary Color Title</h3>
         <article class="component">
             <img 
@@ -339,7 +340,7 @@
      
         </article>
 
-        <h2>Section Three</h2>
+        <h2 id="section-three">Section Three</h2>
         <article class="component">
             <div class="sectionone">
             <img class="sectionone__image"
@@ -386,7 +387,7 @@
             </div>
         </div>
 
-        <h2>Section four</h2>
+        <h2 id="section-four">Section four</h2>
         <h3 class="component__name">Shades and blend modes Title</h3>
         <article class="component">
             <img 
@@ -456,7 +457,7 @@
                 </div>
         </article>
 
-        <h2>Section five</h2>
+        <h2 id="section-five">Section five</h2>
         <h3 class="component__name">Recommended Use Title</h3>
         <article class="component">
             <img 
@@ -506,7 +507,7 @@
         </div>
         </article>
     </div>
-    <footer class="footercolor">
+    <footer id="footer" class="footercolor">
         <div class="footercontainer">
             <img class="footer__image1" src="../components/img/argyleStyleguideImages/footer/footer.png" alt="footer image">
         </div>

@@ -67,6 +67,23 @@ font-size: 26px;
 padding-left: 10px;
 }
 
+.page-header__color {
+border-bottom: 20px solid var(--blue);
+}
+
+.page-header{
+  max-width: 1200px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.pagenav {
+  display: flex;
+  justify-content: space-between;
+list-style: none;
+}
+
 .navbar {
   display: flex;
   flex-wrap: wrap;
