@@ -18,7 +18,7 @@
   --bluishdarkgrey: rgb(76, 79, 86);
   --bluishgrey: rgb(196, 210, 220);
   --lightgrey: rgb(217, 217, 217);
-  --bluishlightgrey: rgb(239, 241, 245);
+  --bluishlightgrey: rgb(238, 241, 245);
   --extralightgrey: rgb(244, 244, 244);
   --red: rgb(231, 40, 66);
   --lightred: rgb(254, 164, 138);
@@ -145,8 +145,8 @@ a:active {
 
 .section__headline {
   font-weight: 400;
-  font-size: 12px;
-  line-height: 1.3;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--gray);
 }
 
@@ -498,3 +498,136 @@ flex-wrap: wrap;
   width: 100%;
   min-height: 350px;
 }
+
+.sectionfourflex {
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionfour__100 {
+font-size: 60px;
+margin: 0px;
+}
+
+.sectionfour__80 {
+  font-size: 60px;
+  color: rgb(0, 0, 0, .8);
+  margin: 0px;
+  }
+
+  .sectionfour__40 {
+    font-size: 60px;
+    color: rgb(0, 0, 0, .4);
+    margin: 0px;
+    }
+
+.sectionfourflex__headline {
+color: var(--gray);
+font-size: 12px;
+margin-top: 5px;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.lightpurple {
+  color: var(--lightpurple);
+}
+
+.ruler__headline16 {
+  color: var(--gray);
+  border-top: 1px solid rgb(0, 0, 0, .16);
+  font-size: 12px;
+  padding-top: 8px;
+  margin-top: 5px;
+  }
+
+  .ruler__headline8 {
+    color: var(--gray);
+    border-top: 1px solid rgb(0, 0, 0, .1);
+    font-size: 12px;
+    padding-top: 8px;
+    margin-top: 5px;
+    }
+
+.ru__container {
+  max-width: 900px;
+}
+
+.ru__smallimage {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.image1 {
+flex: 1;
+margin-right: 20px;
+margin-bottom: 20px;
+max-width: 440px;
+min-width: 400px;
+}
+.image2{
+  flex: 1;
+  max-width: 440px;
+  min-width: 400px;
+  margin-bottom: 20px;
+
+  }
+
+.largeimage1 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 1px solid var(--extralightgrey);
+  width: 100%;
+  height: auto;
+}
+
+
+.footercolor {
+  background-color: var(--black);
+}
+
+.footercontainer {
+max-width: 1400px;
+display: flex;
+justify-content: space-between;
+margin: auto;
+}
+
+.footer__image1 {
+ max-width: 100%;
+}
+
+.footer__image {
+  flex: 1;
+  max-width: 300px;
+  min-width: 100px;
+  margin-bottom: 20px;
+}
+
+.footer__content {
+  flex: 1;
+  max-width: 400px;
+  margin-right: 100px;
+}
+
+.section__title1 {
+  flex: 1;
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.footer__button {
+display: block;
+text-align: center;
+width: 120px;
+font-weight: 500;
+color: var(--white);
+background-color: var(--blue);
+padding: 20px;
+}
+
