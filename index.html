@@ -2,10 +2,79 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Components | argyle styleguide</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link href="css/normalize.css" rel="stylesheet">        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Components | argyle styleguide</title>
     </head>
 
-    <body>
-        <h1></h1>
-    </body>
-</html>
+<body>
+    <div class="site__container">
+        <header class="header">
+            <div class="site-name">
+                <h1><span class="site__name1">argyle</span><span class="site__name2">Styleguide</span></h1>
+            </div>
+            <div class="navbar">
+                <ul class="navbar__list">
+                    <li><a href="https://argyle.design/typeface/">Introduction</a></li>
+                    <li><a href="https://argyle.design/logo/">Logotype</a></li>
+                    <li class="navbar__current"><a href="https://argyle.design/colors/">Colors</a></li>
+                    <li><a href="https://argyle.design/typeface/">Typeface</a></li>
+                </Ul>
+            </div>
+        </header>
+        <section class="asidenavbar">
+            <h2 class="asidenavbor__menutitle">Colors</h2>
+            <ul class="asidenavbar__list">
+                <li><a href="#!">Primary Pallete</a></li>
+                <li><a href="#!">Secondary colors</a></li>
+                <li><a href="#!">Usage balance</a></li>
+                <li><a href="#!">Shades and blend modes</a></li>
+                <li><a href="#!">Recommended use</a></li>
+            </ul>
+        </section>
+        <section class="main-content">
+            <article class="cover">
+                <h2 class="cover__title">Colors</h2>
+                <p class="cover__headline">The brand colors make our company representation interesting, vivid, and unique.</p>
+                <img class="cover__image"
+                src="../components/img/argyleStyleguideImages/cover/cover__image.png"
+                alt="Cover Image">
+            </article>
+
+            <article class="sectionone">
+                <h2 class="section__title">Primary pallette</h2>
+                <p class="section__headline">The primary colors are Argyle Blue, black, and white.
+                </p>
+            </article>
+            <div class="colorcardcontainer">
+                <div class="primarycolorcard">
+                    <h2 class="primarycolorcard__title">Argyle blue</h2>
+                        <div class="primarycolorcard__rgb"><span                    class="primarycolorcard__rgb--title">RGB</span><span class="primarycolorcard__rgb--numbers">105  75  165</span>
+                        </div>
+                    <div class="primarycolorcard__hex"><span class="primarycolorcard__hex--title">HEX</span><span class="primarycolorcard__hex--numbers">694BA5</span>
+                    </div>
+                </div>
+
+                <div class="primarycolorcard__black">
+                    <h2 class="primarycolorcard__title">Pure Black</h2>
+                    <div class="primarycolorcard__rgb"><span class="primarycolorcard__rgb--title">RGB</span><span class="primarycolorcard__rgb--numbers">0  0  0</span>
+                    </div>
+                    <div class="primarycolorcard__hex"><span class="primarycolorcard__hex--title">HEX</span><span class="primarycolorcard__hex--numbers">000000</span>
+                    </div>
+                </div>
+    
+                <div class="component">
+                <div class="primarycolorcard__white">
+                    <h2 class="primarycolorcard__title--white">Pure White</h2>
+                    <div class="primarycolorcard__rgb"><span class="primarycolorcard__rgb--titlewhite">RGB</span><span class="primarycolorcard__rgb--numberswhite">0  0  0</span>
+                    </div>
+                    <div class="primarycolorcard__hexwhite"><span class="primarycolorcard__hex--titlewhite">HEX</span><span class="primarycolorcard__hex--numberswhite">000000</span>
+                    </div>
+                </div>
+        </div> <!--colorcardcontainer-->
+        </section>
+    </div>
+
+</body>
